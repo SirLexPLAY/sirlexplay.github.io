@@ -1,48 +1,70 @@
-.course-card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  gap: 1.5rem; 
-  margin-top: 1.5rem; 
-  margin-bottom: 2rem; 
+.card {
+    padding: 1em;
+    border: 1px var(--text) solid;
+    width: 11em; 
+    height: auto;
+    text-align: center; 
+    font-size: 1em;
+    align-items: center;
+    background-color: var(--bg-secondary);
+    margin-bottom: 0.8em;
+    border-radius: 0.5em
+}
+.card .header { color: var(--links); }
+.card .body { font-size: 0.8em; }
+
+.course-card-list { 
+    justify-content: flex-start; 
 }
 
-.course-card {
-  
-  background-color: var(--bg-secondary);
-  border: 1px var(--text) solid; 
-  border-radius: 0.5em;
-  padding: 1.5em; 
-  
-  
-  width: auto; 
-  text-align: left; 
-  display: flex; 
-  flex-direction: column; 
-  height: 100%; 
+.course-card { 
+    width: auto; 
+    min-width: 280px; 
+    flex-grow: 1; 
+    flex-basis: 300px; 
+    text-align: left; 
+    background-color: var(--bg-secondary); 
+    border: 1px var(--text) solid; 
+    border-radius: 0.5em; 
+    padding: 1.5em; 
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
 }
 
-.course-card h3 {
-  color: var(--headings); 
-  margin-top: 0; 
-  font-size: 1.25rem; 
-  margin-bottom: 0.75em; 
+
+.course-card .header { 
+    color: var(--headings); 
+    font-size: 1.25rem; 
+    margin-bottom: 0.5em; 
+    font-weight: bold; 
 }
 
-.course-card p { 
-  color: var(--text);
-  font-size: 0.95rem; 
-  line-height: 1.6; 
-  flex-grow: 1; 
-  margin-bottom: 1em; 
+.course-card hr {
+    border: 0;
+    border-top: 1px solid var(--text); 
+    opacity: 0.5; 
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
-.course-card p:last-child {
-  margin-bottom: 0; 
+.course-card .body { 
+    font-size: 0.95rem; 
+    line-height: 1.6; 
+    color: var(--text);
+    flex-grow: 1; 
+}
+
+.course-card .body p { 
+    margin-bottom: 0.75em;
+}
+
+.course-card .body p:last-child {
+    margin-bottom: 0;
 }
 
 .course-card .course-meta { 
-  font-size: 0.85rem;
-  color: var(--text-secondary); 
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+    font-size: 0.85rem;
+    color: var(--text-secondary); 
+    margin-top: 0.75em; 
 }
