@@ -5,66 +5,27 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
-
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Blender Data Generation Tool
+    url: https://github.com/SirLexPLAY/BlenderDataGenerationTool
+    desc: Primitive Dataset Generator Tool developed for the need of my master thesis.
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+  - title: Snake (C++)
+    url: https://github.com/SirLexPLAY/snake_cpp
+    desc: Snake game implemented using SFML, as a form of learning the library
     highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Presidenten
+    url: https://github.com/SirLexPLAY/Presidenten
+    desc: Python Implementation of the Norwegian "Presidenten" Card Game
+  - title: Snake (Python)
+    url: https://github.com/SirLexPLAY/Snake-Spillet-Python
+    desc: Snake game implemented using PyGame, as a form of learning the library
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
-
   - title: github
-    url: https://github.com/abhinavs
-
-  - title: feed
-    url: feed.xml
+    url: https://github.com/SirLexPLAY
 
 misc_entries:
   - title: this is an example vertical list
