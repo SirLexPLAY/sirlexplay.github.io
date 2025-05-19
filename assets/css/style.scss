@@ -1,0 +1,32 @@
+.course-card-container {
+  display: grid; // Or flex
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); // Responsive grid
+  gap: 1.5rem; // Space between cards
+  margin-bottom: 2rem;
+}
+
+.course-card {
+  border: 1px solid #ddd; // Adjust color according to your theme
+  padding: 1.5rem;
+  border-radius: 8px; // Rounded corners
+  background-color: #f9f9f9; // Light background, adjust for your theme (especially for dark theme)
+
+  // For a dark theme, you might need something like this (often requires more advanced theme setup)
+  // body.dark-mode & { // If your theme adds a class to the body for dark mode
+  //   background-color: #333;
+  //   border-color: #555;
+  // }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+
+  .course-code, .credits {
+    font-size: 0.9rem;
+    color: #555; // Adjust color
+    // body.dark-mode & {
+    //   color: #bbb;
+    // }
+  }
+}
