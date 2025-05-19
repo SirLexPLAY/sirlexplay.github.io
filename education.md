@@ -4,6 +4,16 @@ title: Education
 permalink: /education/
 ---
 
+{% for semester_data in site.data.education_courses %}
+  <h4>{{ semester_data.semester }}</h4>
+  <div class="course-card-container"> {# A container to help with layout, e.g., grid or flexbox #}
+    {% for course in semester_data.courses %}
+      {% include course_card.html title=course.title code=course.code description=course.description credits=course.credits %}
+    {% endfor %}
+  </div>
+{% endfor %}
+
+
 ## University of Oslo
 **Informatics: Programming and Systems Architecture (Masters)** | Aug 2023 - Jun 2025
 * Master Thesis Title: "Synthetic LiDAR Data Generation and Evaluation of Geometric Primitive Detection Methods"

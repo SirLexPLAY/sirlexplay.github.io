@@ -1,0 +1,17 @@
+- semester: "Master's - Fall 2021"
+  courses:
+    - title: "Advanced Quantum Physics for Beginners"
+      code: "PHYS3000"
+      description: "A deep dive into the mysteries of the quantum world and its applications."
+      credits: "10 ECTS"
+    - title: "Scientific Method and Ethics"
+      code: "PHIL3010"
+      description: "Principles of good research practice and ethical considerations."
+      credits: "5 ECTS"
+
+- semester: "Master's - Spring 2022"
+  courses:
+    - title: "Practical Application of Theoretical Concepts"
+      code: "PRAX3100"
+      description: "Bridging theory and practice through case studies."
+      credits: "15 ECTS"
