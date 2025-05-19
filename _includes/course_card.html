@@ -1,10 +1,10 @@
 <div class="course-card">
   <h3>{{ include.title }}</h3>
   {% if include.code %}
-    <p class="course-code"><strong>Course Code:</strong> {{ include.code }}</p>
+    <p class="course-meta"><strong>Course Code:</strong> {{ include.code }}</p>
   {% endif %}
   <p>{{ include.description }}</p>
   {% if include.credits %}
-    <p class="credits"><strong>Credits:</strong> {{ include.credits }}</p>
+    <p class="course-meta"><strong>Credits:</strong> {{ include.credits }}</p>
   {% endif %}
 </div>
