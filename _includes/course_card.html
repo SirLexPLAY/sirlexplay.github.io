@@ -1,3 +1,5 @@
+{% assign modal_id = include.title | slugify | append: "-modal" %} {/* Create a unique ID for the modal */}
+
 <li class="card course-card">
   <span class="header">
     {{ include.title }}
@@ -13,5 +15,21 @@
     {% if include.credits %}
        <p class="course-meta"><strong>Credits:</strong> {{ include.credits }}</p>
     {% endif %}
+    
+    {% if include.modal_details %}
+      <button class="view-details-btn" data-modal-target="#{{ modal_id }}">View Details</button>
+    {% endif %}
   </div>
+
+  {% if include.modal_details %}
+  <div id="{{ modal_id }}" class="course-modal" style="display:none;">
+    <div class="course-modal-content">
+      <span class="course-modal-close">&times;</span>
+      <h2>{{ include.title }} - Details</h2>
+      <div class="modal-body-content">
+        {{ include.modal_details | markdownify }}
+      </div>
+    </div>
+  </div>
+  {% endif %}
 </li>

@@ -68,3 +68,89 @@
     color: var(--text-secondary); 
     margin-top: 0.75em; 
 }
+
+.view-details-btn {
+  display: inline-block;
+  background-color: var(--links); /* Use your theme's link color */
+  color: var(--bg); /* Text color that contrasts with button background */
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 1em;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.view-details-btn:hover {
+  background-color: var(--headings); /* Slightly different color on hover */
+}
+
+/* Modal Styles */
+.course-modal {
+  display: none; /* Hidden by default - JS will toggle this */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity for overlay */
+  backdrop-filter: blur(5px); /* Optional: blur background */
+}
+
+.course-modal-content {
+  background-color: var(--bg-secondary); /* Use theme's secondary background */
+  color: var(--text); /* Use theme's text color */
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 25px;
+  border: 1px solid var(--text); /* Or a more subtle border */
+  border-radius: 0.5em;
+  width: 80%; /* Could be more or less, or use max-width */
+  max-width: 700px; /* Max width for larger screens */
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  animation: fadeInModal 0.3s ease-out;
+}
+
+@keyframes fadeInModal {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.course-modal-close {
+  color: var(--text-secondary);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.course-modal-close:hover,
+.course-modal-close:focus {
+  color: var(--links);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.course-modal-content h2 {
+  margin-top: 0;
+  color: var(--headings);
+}
+
+.modal-body-content {
+  margin-top: 1em;
+  max-height: 60vh; /* Limit height and allow scrolling within modal body */
+  overflow-y: auto; /* Scroll for content that's too long */
+}
+
+/* Ensure Markdown content within modal is styled (basic) */
+.modal-body-content ul {
+  padding-left: 20px;
+}
+.modal-body-content li {
+  margin-bottom: 0.5em;
+}

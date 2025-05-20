@@ -3,77 +3,181 @@ masters_subjects:
     code: "IN4120" 
     description: "Covers information retrieval, web search, and text analysis techniques." 
     credits: "10 ECTS" 
+    modal_details: |
+      **Key Projects:**
+      * Developed a mini search engine for a document corpus.
+      * Analyzed query logs to identify user search patterns.
+
+      **Skills Gained:**
+      * Information Retrieval models (Vector Space, Boolean)
+      * Text preprocessing (tokenization, stemming)
+      * Python, NLTK
   - title: "IN4310: Deep Learning for Image Analysis"
     code: "IN4310"
     description: "Exploring deep learning methods for image recognition, segmentation, and understanding."
     credits: "10 ECTS"
+    modal_details: |
+      **Focus Areas:**
+      * Convolutional Neural Networks (CNNs)
+      * Recurrent Neural Networks (RNNs) for image captioning.
+      * Image segmentation techniques.
+
+      **Projects:**
+      * Implemented a CNN for image classification on the CIFAR-10 dataset.
+      * Explored transfer learning with pre-trained models.
+
+      **Key Skills:**
+      * TensorFlow/Keras
+      * Image data augmentation
+      * Model evaluation
   - title: "INF5110: Compiler Techniques"
     code: "INF5110"
     description: "Principles and practices of compiler design and implementation."
     credits: "10 ECTS"
+    modal_details: |
+      **Key Projects:**
+      * Test
   - title: "IN5060: Quantitative Performance Analysis"
     code: "IN5060"
     description: "Methods for analyzing and predicting the performance of computer systems."
     credits: "10 ECTS"
+    modal_details: |
+      **Key Projects:**
+      * Test
   - title: "IN5320: Development in platform ecosystems"
     code: "IN5320"
     description: "Focuses on software development within large-scale platform ecosystems."
     credits: "10 ECTS"
+    modal_details: |
+      **Key Projects:**
+      * Test
   - title: "IN5700: Fog Computing"
     code: "IN5700"
     description: "Explores the fog computing paradigm, extending cloud computing to the edge of the network."
     credits: "10 ECTS"
+    modal_details: |
+      **Key Projects:**
+      * Test
 
 bachelors_relevant_subjects:
-  - title: "IN1000: Introduction to Object-oriented Programming"
+  - title: "Introduction to Object-oriented Programming"
+    code: "IN1000"
     credits: "10 ECTS"
     description: "Fundamental concepts of object-oriented programming using Python."
-  - title: "IN1010: Object-oriented Programming"
+    modal_details: |
+      **Core Concepts Covered:**
+      * Classes and Objects
+      * Inheritance and Polymorphism
+      * Encapsulation
+
+      **Assignments:**
+      * Developed several small applications to practice OOP principles.
+  - title: "Object-oriented Programming"
+    code: "IN1010"
     credits: "10 ECTS"
     description: "Further OOP concepts and programming in Java."
-  - title: "IN1020: Introduction to Computer Technology"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Introduction to Computer Technology"
+    code: "IN1020"
     credits: "10 ECTS"
     description: "Overview of computer hardware, software, and networking fundamentals."
-  - title: "IN1030: Systems, Requirements and Consequences"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Systems, Requirements and Consequences"
+    code: "IN1030"
     credits: "10 ECTS"
     description: "Understanding system development, requirement engineering, and societal impacts."
-  - title: "IN2000: Software Engineering with Project Work"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Software Engineering with Project Work"
+    code: "IN2000"
     credits: "20 ECTS"
     description: "Principles of software engineering applied in a team-based project."
-  - title: "IN2010: Algorithms and Data Structures (10 ECTS)"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Algorithms and Data Structures (10 ECTS)"
+    code: "IN2010"
     credits: "10 ECTS"
     description: "Study of fundamental algorithms, data structures, and their efficiency analysis."
-  - title: "IN2090: Databases and Data Modellering (10 ECTS)"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Databases and Data Modellering (10 ECTS)"
+    code: "IN2090"
     credits: "10 ECTS"
     description: "Introduces relational database design, data modeling techniques, and SQL."
-  - title: "IN2120: Information Security (10 ECTS)"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Information Security (10 ECTS)"
+    code: "IN2120"
     credits: "10 ECTS"
     description: "Covers core principles, common threats, and basic mechanisms in information security."
-  - title: "IN2140: Introduction to operating systems and data communication (10 ECTS)"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Introduction to operating systems and data communication (10 ECTS)"
+    code: "IN2140"
     credits: "10 ECTS"
     description: "Fundamentals of operating system concepts and basics of data communication networks."
-  - title: "IN3110: Problem Solving with High-Level Languages (10 ECTS)"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Problem Solving with High-Level Languages (10 ECTS)"
+    code: "IN3110"
     credits: "10 ECTS"
     description: "Advanced problem-solving techniques using modern high-level programming languages."
+    modal_details: |
+      **Key Projects:**
+      * Test
 
 
 
 bachelors_other_subjects:
-  - title: "IN-KJM1900: Introduction to Programming for Chemists"
+  - title: "Introduction to Programming for Chemists"
+    code: "IN-KJM1900"
     credits: "4 ECTS"
     description: "Basic programming skills applied to chemical problems and data analysis."
-  - title: "KJM1101: General Chemistry"
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "General Chemistry"
+    code: "KJM1101"
     credits: "10 ECTS"
     description: "Fundamental principles of atomic structure, bonding, reactions, and stoichiometry."
-  - title: "MAT1050: Mathematics for Applications 1 "
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Mathematics for Applications 1 "
+    code: "MAT1050"
     credits: "10 ECTS"
     description: "Essential calculus and linear algebra methods for applications in science and technology."
-  - title: "FYS-MEK1100: Mechanics "
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "-MEK1100: Mechanics "
+    code: "FYS"
     credits: "10 ECTS"
     description: "Introduces classical mechanics, covering motion, forces, energy, and rotational dynamics."
-  - title: "KJM1111: Organic Chemistry I "
+    modal_details: |
+      **Key Projects:**
+      * Test
+  - title: "Organic Chemistry I "
+    code: "KJM1111"
     credits: "10 ECTS"
     description: "Structure, nomenclature, properties, and basic reactions of organic compounds."
+    modal_details: |
+      **Key Projects:**
+      * Test
   - title: "Calculus and Linear Algebra "
+    code: "MAT1110"
     credits: "10 ECTS"
     description: "Foundational topics in multivariable calculus and linear algebra."
+    modal_details: |
+      **Key Projects:**
+      * Test
