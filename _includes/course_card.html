@@ -10,10 +10,8 @@
     {% if include.code %}
       <p class="course-meta"><strong>Course Code:</strong> {{ include.code }}</p>
     {% endif %}
-    {% if include.credits and include.code == nil %}
-      <p class="course-meta"><strong>Credits:</strong> {{ include.credits }}</p>
-    {% elsif include.credits %}
-       <p class="course-meta additional-meta"><strong>Credits:</strong> {{ include.credits }}</p>
+    {% if include.credits %}
+       <p class="course-meta"><strong>Credits:</strong> {{ include.credits }}</p>
     {% endif %}
   </div>
 </li>
