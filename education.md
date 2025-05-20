@@ -18,7 +18,7 @@ permalink: /education/
 
 
 **Freely Combined Bachelor's Degree** | Aug 2020 - Jun 2023
-* test
+* I was a student of the "Kjemi og Biokjemi" program during first 4 semesters, then "Informatikk: programmering og systemarkitektur" (PROSA) for one 2 last semesters. In order to apply for the masters, I had to either have one more year with bachelor subjects to fullfil the requirements to get a bachelor in PROSA (I was missing one mandatory specialization subject), or apply for "Freely Combined Bachelor's Degree", which I did in the end.
 
 #### Relevant Subjects Included:
 <ul class="horizontal-list course-card-list">
