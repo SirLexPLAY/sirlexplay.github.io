@@ -12,7 +12,12 @@ permalink: /education/
 #### Taken Subjects:
 <ul class="horizontal-list course-card-list">
   {% for course in site.data.education_data.masters_subjects %}
-    {% include course_card.html title=course.title description=course.description code=course.code credits=course.credits %}
+    {% include course_card.html 
+       title=course.title 
+       description=course.description 
+       code=course.code 
+       credits=course.credits 
+       modal_details=course.modal_details %}
   {% endfor %}
 </ul>
 
@@ -23,13 +28,23 @@ permalink: /education/
 #### Relevant Subjects Included:
 <ul class="horizontal-list course-card-list">
   {% for course in site.data.education_data.bachelors_relevant_subjects %}
-    {% include course_card.html title=course.title description=course.description code=course.code credits=course.credits %}
+    {% include course_card.html 
+       title=course.title 
+       description=course.description 
+       code=course.code 
+       credits=course.credits 
+       modal_details=course.modal_details %} {/* ADD THIS LINE */}
   {% endfor %}
 </ul>
 
 #### Other Subjects Included:
 <ul class="horizontal-list course-card-list">
   {% for course in site.data.education_data.bachelors_other_subjects %}
-    {% include course_card.html title=course.title description=course.description code=course.code credits=course.credits %}
+    {% include course_card.html 
+       title=course.title 
+       description=course.description 
+       code=course.code 
+       credits=course.credits 
+       modal_details=course.modal_details %} {/* ADD THIS LINE */}
   {% endfor %}
 </ul>
