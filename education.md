@@ -33,7 +33,7 @@ permalink: /education/
        description=course.description 
        code=course.code 
        credits=course.credits 
-       modal_details=course.modal_details %} {/* ADD THIS LINE */}
+       modal_details=course.modal_details %}
   {% endfor %}
 </ul>
 
@@ -45,6 +45,6 @@ permalink: /education/
        description=course.description 
        code=course.code 
        credits=course.credits 
-       modal_details=course.modal_details %} {/* ADD THIS LINE */}
+       modal_details=course.modal_details %} 
   {% endfor %}
 </ul>
