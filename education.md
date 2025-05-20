@@ -18,6 +18,7 @@ permalink: /education/
 
 
 **Freely Combined Bachelor's Degree** | Aug 2020 - Jun 2023
+* test
 
 #### Relevant Subjects Included:
 <ul class="horizontal-list course-card-list">
