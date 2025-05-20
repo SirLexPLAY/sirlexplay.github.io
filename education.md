@@ -16,7 +16,6 @@ permalink: /education/
   {% endfor %}
 </ul>
 
----
 
 **Freely Combined Bachelor's Degree** | Aug 2020 - Jun 2023
 
